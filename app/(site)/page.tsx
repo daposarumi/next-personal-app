@@ -32,7 +32,3 @@ export default async function Home() {
     </div>
   )
 }
-
- export function getStaticProps() {
-
- }
