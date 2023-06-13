@@ -41,6 +41,7 @@ import { Page } from "@/types/Page";
             _createdAt,
             title,
             "slug": slug.current,
+            
         }`
     )
  }
@@ -52,6 +53,7 @@ import { Page } from "@/types/Page";
             _createdAt,
             title,
             "slug": slug.current,
+            "image": image.asset->url,
             content
         }`,
         { slug }
