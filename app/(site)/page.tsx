@@ -9,7 +9,7 @@ export default async function Home() {
 
   return (
     <div>
-      <h1 className="text-7xl font-extrabold">Hi I&apos;m <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">Adedapo</span></h1>
+      <h1 className="text-7xl font-extrabold">Hi, I&apos;m <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">Adedapo</span></h1>
       <p className="mt-4 text-xl text-gray-600 max-w-2xl">I&apos;m a frontend engineer and I&apos;m passionate about creating user-centred systems. These are my most recent front-end projects, and I look forward to working with you!</p>
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-7 px-6 rounded">Hire Me</button>
       <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
