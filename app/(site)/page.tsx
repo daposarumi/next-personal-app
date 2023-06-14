@@ -9,7 +9,7 @@ export default async function Home() {
 
   return (
     <div>
-      <h1 className="lg:text-6xl text-5xl/9 text-gray-300 font-bold ">Hi, I&apos;m Adedapo</h1>
+      <h1 className="lg:text-6xl text-5xl/13 text-gray-300 font-bold ">Hi, I&apos;m Adedapo</h1>
       <h2 className='lg:text-xl text-lg text-gray-300 mt-3 font-semibold'>Frontend Engineer, UI/UX Enthusiast</h2>
       <p className="mt-4 text-l text-gray-400 max-w-2xl">I&apos;m passionate about creating user-centred systems. These are my most recent front-end projects, and I look forward to working with you!</p>
       <a href="mailto:sarumiadedapo@gmail.com" target="_blank"><button className="cta text-neutral-800 font-bold py-2 mt-7 px-10 rounded-lg">Hire Me</button></a>
