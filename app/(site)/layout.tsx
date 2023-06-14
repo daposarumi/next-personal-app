@@ -19,7 +19,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className='lg:px-40 mx-auto py-5 sm:px-7'>
+      <body className='sm:px-7 lg:px-40 mx-auto'>
         <header className='flex items-center justify-between'>
           <Link href="/"
           className="logo text-2xl font-bold">
