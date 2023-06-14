@@ -15,12 +15,12 @@ export default async function Project({ params }: Props) {
     return (
     <div>
         <header className="flex items-center justify-between">
-            <h1 className="text-neutral-650 text-4xl/9 font-extrabold">{project.name}</h1>
-            <a href={project.url} title="View Project" target="_blank" rel="noopener noreferrer" className="bg-gray-100 rounded-lg text-gray-500 font-bold py-3 px-5 whitespace-nowrap hover:bg-blue-500 hover:text-pink-100 transition">
+            <h1 className="text-gray-300 text-4xl/9 font-extrabold">{project.name}</h1>
+            <a href={project.url} title="View Project" target="_blank" rel="noopener noreferrer" className="vproject text-neutral-800 rounded-lg font-bold py-2 px-5 whitespace-nowrap transition">
                 View Project
             </a>
         </header> 
-        <div className="text-lg text-gray-700 mt-5">
+        <div className="text-lg text-gray-400 mt-5">
         <PortableText value={project.content}/>
         </div>
 

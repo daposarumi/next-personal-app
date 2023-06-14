@@ -19,22 +19,22 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className='max-w-4xl mx-auto py-5 px-6'>
+      <body className='lg:px-40 mx-auto py-5 md,sm:px-6'>
         <header className='flex items-center justify-between'>
           <Link href="/"
-          className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-2xl font-bold">
+          className="logo text-2xl font-bold">
             DS.
           </Link>
 
-          <div className='flex items-center gap-5 text-base text-gray-600'>
+          <div className='flex items-center gap-7 text-base text-gray-500'>
             {pages.map((page) => (
-              <Link key={page._id} href={`/${page.slug}`} className='hover:underline'>{page.title}</Link>
+              <Link key={page._id} href={`/${page.slug}`} className='menu'>{page.title}</Link>
             ))}
-
+            <a href="#" className="resume hover:text-neutral-900 text-base border px-5 py-1 rounded-lg">Resume</a>
           </div>
         </header>
          <main className='py-20'>{children}</main>
-         <footer className='text-center text-gray-500'>
+         <footer className='text-center text-gray-500 text-sm'>
             &copy; Dapo Sarumi, 2023.
         </footer>
          </body>

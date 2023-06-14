@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
+body {
     background-color: #092327;
-} */
+} 
+.logo {
+    color: #E3B23C;
+}
+.cta {
+    background-color: #E3B23C;
+}
+.cta:hover {
+    background-color: #E3B23C;
+}
+.resume {
+    color:#E3B23C;
+    border:solid 1px #E3B23C;
+}
+.resume:hover {
+    background-color:#E3B23C;
+}
+.menu:hover {
+    color: #E3B23C;
+}
+.projects {
+    background-color:aliceblue;
+}
+.vproject {
+    background-color: #E3B23C;
+}
