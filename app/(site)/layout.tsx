@@ -25,15 +25,15 @@ export default async function RootLayout({
           className="logo text-2xl font-bold">
             DS.
           </Link>
-          <ul>
-          <li className='md:flex md:items-center gap-7 text-base text-gray-500 z-[-1] md:z-auto md:static absolute'>
+          
+          <div className='md:flex md:items-center gap-7 text-base text-gray-500 z-[-1] md:z-auto md:static absolute'>
             {pages.map((page) => (
               <Link key={page._id} href={`/${page.slug}`} className='menu'>{page.title}</Link>
             ))}
             
-            <a href="#" className="resume hover:text-neutral-900 text-base border px-5 py-1 rounded-lg">Resume</a>
-            </li>
-            </ul>
+            {/* <a href="#" className="resume hover:text-neutral-900 text-base border px-5 py-1 rounded-lg">Resume</a> */}
+            </div>
+          
         </header>
          <main className='py-20'>{children}</main>
          <footer className='text-center text-gray-500 text-sm'>
