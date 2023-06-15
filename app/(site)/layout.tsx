@@ -26,7 +26,7 @@ export default async function RootLayout({
             DS.
           </Link>
           
-          <div className='md:flex md:items-center gap-7 text-base text-gray-500 z-[-1] md:z-auto md:static absolute'>
+          <div className='flex items-center gap-7 text-base text-gray-500'>
             {pages.map((page) => (
               <Link key={page._id} href={`/${page.slug}`} className='menu'>{page.title}</Link>
             ))}
