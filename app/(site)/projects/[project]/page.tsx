@@ -15,7 +15,7 @@ export default async function Project({ params }: Props) {
     return (
     <div>
         <header className="flex items-center justify-between">
-            <h1 className="text-gray-300 text-2xl/9 font-extrabold">{project.name}</h1>
+            <h1 className="text-gray-300 text-3xl/9 font-extrabold">{project.name}</h1>
             <a href={project.url} title="View Project" target="_blank" rel="noopener noreferrer" className="vproject text-neutral-800 rounded-lg font-bold py-2 px-5 whitespace-nowrap transition">
                 View Project
             </a>
