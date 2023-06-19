@@ -27,7 +27,7 @@ export default async function Home() {
             className="object-cover rounded-lg border border-gray-500"
             />
           )}
-          <div className="text-md text-neutral-600 mt-2 font-semibold">{project.name}</div>
+          <div className="text-md text-neutral-900 mt-2 font-semibold">{project.name}</div>
         </Link>
       ))}
       </div>
