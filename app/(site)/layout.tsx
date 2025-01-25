@@ -37,7 +37,7 @@ export default async function RootLayout({
         </header>
          <main className='py-20'>{children}</main>
          <footer className='text-center text-gray-500 text-sm'>
-            &copy; Dapo Sarumi, 2023.
+            &copy; Dapo Sarumi, 2025.
         </footer>
          </body>
     </html>
